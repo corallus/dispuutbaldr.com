@@ -1,5 +1,5 @@
 <?php
-require('libs/Smarty.class.php');
+require('../libs/Smarty.class.php');
 
 $smarty = new Smarty;
 
@@ -9,7 +9,7 @@ $smarty->debugging = true;
 $smarty->caching = false;
 $smarty->cache_lifetime = 120;
 
-$smarty->assign("curPage", 'index');
+$smarty->assign("curPage", 'huis');
 
-$smarty->display('index.tpl');
+$smarty->display('huis.tpl');
 ?>
