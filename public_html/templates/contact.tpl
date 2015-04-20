@@ -12,7 +12,7 @@
                     <h3 class="panel-title">Bestuur</h3>
                 </div>
                 <div class="panel-body">
-                    <img src="../static/img/bestuur.jpg" class="img-responsive">
+                    <!-- <img src="../static/img/bestuur.jpg" class="img-responsive">-->
                     <div class="row">
                         <div class="col-md-6">Praeses</div>
                         <div class="col-md-6">B. Aan de Brugh</div>
@@ -22,7 +22,7 @@
                         <div class="col-md-6">J.M.P. Kerstjens</div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6">Questor</div>
+                        <div class="col-md-6">Quaestor</div>
                         <div class="col-md-6">V.A. Wouterse</div>
                     </div>
                 </div>

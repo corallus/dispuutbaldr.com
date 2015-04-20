@@ -2,39 +2,29 @@
 
 {block name=content}
     <div class="container">
-    {foreach $leden as $jaar=>$generatie}
-        <div class="panel panel-baldr">
-        <div class="panel-heading">
-            <h3 class="panel-title">{$jaar}</h3>
+                    {foreach $leden as $lid}
+    {if $lid@first}
+        <div class="row">
+            {elseif ($lid@iteration - 1) is div by 4}
         </div>
-        <div class="panel-body">
+        <div class="row">
+    {/if}
+    <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="well">
+            <img src="{$lid.foto}"
+                 alt="Niet foto-geniek" class="img-responsive center-block">
 
-            {foreach $generatie as $lid}
-                {if $lid@first}
-                    <div class="row">
-                        {elseif ($lid@iteration - 1) is div by 4}
-                    </div>
-                    <div class="row">
-                {/if}
-                <div class="col-md-3">
-                    <div class="thumbnail">
-                        <img src="{$lid.foto}"
-                             alt="{$lid.naam}">
+            <div class="caption text-center">
+                <h3>{$lid.naam}</h3>
 
-                        <div class="image-caption">
-
-                            <h3 class="text-center">{$lid.naam}</h3>
-
-                        </div>
-                    </div>
-                </div>
-                {if $lid@last}
-                    </div>
-                {/if}
-            {/foreach}
+                <p>{$lid.jaar}</p>
+            </div>
         </div>
-        </div>
-    {/foreach}
     </div>
-
+    {if $lid@last}
+        </div>
+    {/if}
+{/foreach}
+                </div>
+    </div>
 {/block}

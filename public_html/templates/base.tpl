@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../static/plugins/bootstrap/css/bootstrap.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="../static/plugins/bootstrap/css/sticky-footer-navbar.css" rel="stylesheet">
+    <link href="../static/css/sticky-footer-navbar.css" rel="stylesheet">
 
     <!-- Baldr style -->
     <link rel="stylesheet" href="../static/css/style.css">
@@ -41,7 +41,7 @@
                 m.parentNode.insertBefore(a, m)
             })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-            ga('create', '', 'auto');
+            ga('create', 'UA-62081341-1', 'auto');
             ga('send', 'pageview');
 
         </script>

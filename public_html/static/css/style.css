@@ -4,10 +4,15 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin-top: 60px;
 }
 
 body {
     background-color: transparent;
+}
+
+.well {
+    background:rgba(255,255,255,0.8);
 }
 
 .content {
@@ -17,6 +22,18 @@ body {
 
 .panel-baldr {
     background:rgba(255,255,255,0.9);
+}
+
+.panel-baldr-leden {
+    background:rgba(255,255,255,0.0);
+}
+
+.panel-baldr-leden .panel-heading {
+    background:rgba(255,255,255,0.9);
+}
+
+.panel-baldr-leden .panel-title {
+    font-size: 26px;
 }
 
 .panel-baldr .panel-heading {

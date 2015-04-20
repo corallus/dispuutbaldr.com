@@ -2,9 +2,9 @@
 
 {block name=content}
     <div class="container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2s!4v1429555015069!6m8!1m7!1sgQOkmJSVS0KOA-pDVnP4gQ!2m2!1d51.43999!2d5.483412!3f290.2008536842105!4f0!5f0.7820865974627469"
-                width="100%" height="450" frameborder="0" style="border:0"></iframe>
         <div class="content">
+            <div class="row">
+                <div class="col-md-6">
             <p>
                 Ben jij op zoek naar een studentenhuis in Eindhoven? Wil jij het beste uit je studententijd halen? Wij
                 hebben de kamer voor jou!
@@ -27,6 +27,10 @@
                         href="mailto: huis@dispuutbaldr.com">huis@dispuutbaldr.com</a>
                 en maak een afspraak om eens langs te komen.
             </p>
+                </div>
+                <div class="col-md-6"><img src="../static/img/image%20(1).jpeg" class="img-responsive"></div>
+            </div>
         </div>
+        <img src="../static/img/Feauteu.JPG" class="img-responsive">
     </div>
 {/block}
