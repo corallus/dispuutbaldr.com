@@ -59,7 +59,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <img src="../static/img/logo_grey.png" alt="Dispuut Baldr" style="height: 25px;">
             </a>
         </div>
