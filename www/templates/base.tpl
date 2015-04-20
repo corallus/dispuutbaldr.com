@@ -74,11 +74,13 @@
 
 {block name=content}{/block}
 
+<!--
 <footer class="footer">
     <div class="container">
-        <p class="text-muted">@ Copyright. All Rights Reserved. Dispuut Baldr</p>
+        <p class="text-muted"></p>
     </div>
 </footer>
+-->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
