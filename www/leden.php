@@ -13,6 +13,11 @@ $smarty->assign("curPage", 'leden');
 
 $smarty->assign("leden",
     array(
+	array(
+            "naam" => "Bentley Hendrickx",
+            "foto" => "../static/img/leden/foto_bentley.jpg",
+            "jaar" => "2006"
+        ),
         array(
             "naam" => "Jasper Jansen",
             "foto" => "../static/img/leden/VAW_5065-2.jpg",
@@ -26,17 +31,17 @@ $smarty->assign("leden",
         array(
             "naam" => "Pim van de Bunt",
             "foto" => "../static/img/leden/VAW_5065-9.jpg",
-            "jaar" => "2010"
+            "jaar" => "2011"
         ),
         array(
             "naam" => "Martijn ten Voorde",
-            "foto" => "",
-            "jaar" => "2010"
+            "foto" => "../static/img/leden/foto_otto.jpg",
+            "jaar" => "2011"
         ),
         array(
             "naam" => "Jelle Kerstjens",
             "foto" => "../static/img/leden/VAW_5065-10.jpg",
-            "jaar" => "2010"
+            "jaar" => "2011"
         ),
         array(
             "naam" => "Pascal Dubois",
@@ -60,7 +65,7 @@ $smarty->assign("leden",
         ),
         array(
             "naam" => "Guus Janssen",
-            "foto" => "",
+            "foto" => "../static/img/leden/fotoguus.JPG",
             "jaar" => "2013"
         ),
         array(
@@ -70,7 +75,7 @@ $smarty->assign("leden",
         ),
         array(
             "naam" => "Maarten Jongeneel",
-            "foto" => "../static/img/leden/VAW_5065-14.jpg",
+            "foto" => "../static/img/leden/VAW_5407-24.jpg",
             "jaar" => "2014"
         ),
         array(
@@ -90,12 +95,12 @@ $smarty->assign("leden",
         ),
         array(
             "naam" => "Joris Marcelis",
-            "foto" => "",
+            "foto" => "../static/img/leden/VAW_5151-22.jpg",
             "jaar" => "2015"
         ),
         array(
             "naam" => "Niels van Dijk",
-            "foto" => "",
+            "foto" => "../static/img/leden/VAW_5043-25.jpg",
             "jaar" => "2015"
         ),
         array(
@@ -108,6 +113,7 @@ $smarty->assign("leden",
             "foto" => "../static/img/leden/VAW_5065-18.jpg",
             "jaar" => "2015"
         )
+        
     )
 );
 
