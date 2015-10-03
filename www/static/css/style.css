@@ -38,3 +38,7 @@ body {
 .panel-baldr .panel-heading {
     background:rgba(255,255,255,0.5);
 }
+
+.beerpong {
+    height: 250px;
+}
